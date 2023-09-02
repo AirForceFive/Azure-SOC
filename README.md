@@ -1,5 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
+![Resized_Azure](https://github.com/AirForceFive/Azure-SOC/assets/130403336/e8c034dd-2c48-4659-bc50-35d9fc0441eb)
+
 
 ## Introduction
 
@@ -32,12 +33,10 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-<img width="1016" alt="Screenshot 2023-09-02 at 5 06 12 PM" src="https://github.com/AirForceFive/Azure-SOC/assets/130403336/816c4f99-4561-4d40-a865-eb6e36be7718"><br>
+![Resized_Screenshot 2023-09-02 at 5 07 07 PM](https://github.com/AirForceFive/Azure-SOC/assets/130403336/8517b4c1-03ba-434c-8601-97ffc706fd3a)
+![Resized_Screenshot 2023-09-02 at 5 05 27 PM](https://github.com/AirForceFive/Azure-SOC/assets/130403336/409e73b4-ae8e-4018-91e3-73e2dcb7f6ea)
+![Resized_Screenshot 2023-09-02 at 5 06 12 PM](https://github.com/AirForceFive/Azure-SOC/assets/130403336/f5836edf-3825-4ba7-878b-77a78442e924)
 
-<img width="951" alt="Screenshot 2023-09-02 at 5 05 27 PM" src="https://github.com/AirForceFive/Azure-SOC/assets/130403336/0205e1ee-669a-4d5a-a7cf-6757bc66b7eb">
-<br>
-<img width="1001" alt="Screenshot 2023-09-02 at 5 07 07 PM" src="https://github.com/AirForceFive/Azure-SOC/assets/130403336/d6ca0018-5f32-4835-a5e8-2233884f7c45">
-<br>
 
 ## Metrics Before Hardening / Security Controls
 
