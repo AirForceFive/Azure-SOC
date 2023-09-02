@@ -32,15 +32,18 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+<img width="1016" alt="Screenshot 2023-09-02 at 5 06 12 PM" src="https://github.com/AirForceFive/Azure-SOC/assets/130403336/816c4f99-4561-4d40-a865-eb6e36be7718"><br>
+
+<img width="951" alt="Screenshot 2023-09-02 at 5 05 27 PM" src="https://github.com/AirForceFive/Azure-SOC/assets/130403336/0205e1ee-669a-4d5a-a7cf-6757bc66b7eb">
+<br>
+<img width="1001" alt="Screenshot 2023-09-02 at 5 07 07 PM" src="https://github.com/AirForceFive/Azure-SOC/assets/130403336/d6ca0018-5f32-4835-a5e8-2233884f7c45">
+<br>
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 2023-08-15 17:04:29
+Stop Time 2023-08-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -57,8 +60,8 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2023-08-18 15:37
+Stop Time	2023-08-19 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
